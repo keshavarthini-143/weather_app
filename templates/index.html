@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Weather Manager</h1>
+        <input type="text" placeholder="Search City" id="city-input">
+        <input type="button" onclick="searchCity()" value="Search">
+
+        <div class="result">
+            <h2 id="city-name">---------</h2>
+            <img id="weather-icon" src="{{ url_for('static', filename='weather.png') }}" alt="Weather">
+            <h1 id="weather-type">----------</h1>
+
+            <div class="weather-center-box">
+                <p class="big-temp"><span id="temp">--</span> °F</p>
+            </div>
+
+            <div class="weather-boxes">
+                <div class="box">
+                    <h4>Feels Like</h4>
+                    <p><span id="feels_like">--</span> °F</p>
+                </div>
+                <div class="box">
+                    <h4>Humidity</h4>
+                    <p><span id="humidity">--</span>%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
