@@ -171,7 +171,6 @@ This helps users **quickly gauge temperature visually**.
 ## 📹 Demo & Submission
 
 * 🎥 Demo Video: https://vimeo.com/1156355655?share=copy&fl=sv&fe=ci
-* 📄 Documentation: Included in submission
 * 🏆 Built for **CircuitBreak 2025**
 
 ---
@@ -179,6 +178,6 @@ This helps users **quickly gauge temperature visually**.
 ## 👨‍💻 Author
 
 **Keshavarthini B**
-Hackathon Project – CircuitBreak 2025
+Aspiring Full Stack Developer | Exploring UI/UX
 
 ---
